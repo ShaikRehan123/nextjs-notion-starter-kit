@@ -7,6 +7,6 @@ const withBundleAnalyzer = require("@next/bundle-analyzer")({
 module.exports = withBundleAnalyzer({
   images: {
     domains: ["pbs.twimg.com", "notion.so"],
-    formats: ["image/avif", "image/webp"],
+    // formats: ["image/avif", "image/webp"],
   },
 });
