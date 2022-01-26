@@ -1,26 +1,25 @@
 module.exports = {
   // where it all starts -- the site's root Notion page (required)
-  rootNotionPageId: 'c00266b549b042efaca6fe80c847a3ea',
+  rootNotionPageId: "c00266b549b042efaca6fe80c847a3ea",
 
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: 'WebDevs World',
-  domain: 'webdevsop.tech',
-  author: 'Rehan Shaik',
+  name: "WebDevs World",
+  domain: "webdevsop.tech",
+  author: "Rehan Shaik",
 
   // open graph metadata (optional)
-  description: 'The only Website you need for web Development',
-  socialImageTitle: 'Rehan Shaik',
-  socialImageSubtitle: 'Hello WebDev! 👋',
+  description: "The only Website you need for web Development",
+  socialImageTitle: "Rehan Shaik",
+  socialImageSubtitle: "Hello WebDev! 👋",
 
   // social usernames (optional)
-  twitter: 'https://twitter.com/ShaikRe14488533',
-  github: 'ShaikRehan123',
-  linkedin: 'rehan-shaik-88a94721a',
-
+  twitter: "ShaikRe14488533",
+  github: "ShaikRehan123",
+  linkedin: "rehan-shaik-88a94721a",
 
   // default notion icon and cover images for site-wide consistency (optional)
   // page-specific values will override these site-wide defaults
@@ -48,5 +47,5 @@ module.exports = {
   //   '/foo': '067dd719a912471ea9a3ac10710e7fdf',
   //   '/bar': '0be6efce9daf42688f65c76b89f8eb27'
   // }
-  pageUrlOverrides: null
-}
+  pageUrlOverrides: null,
+};

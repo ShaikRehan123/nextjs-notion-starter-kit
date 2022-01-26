@@ -1,7 +1,9 @@
+/* eslint-disable prettier/prettier */
 import React from 'react'
 import { isDev, domain } from 'lib/config'
 import { getSiteMaps } from 'lib/get-site-maps'
 import { resolveNotionPage } from 'lib/resolve-notion-page'
+// eslint-disable-next-line prettier/prettier
 import { NotionPage } from 'components'
 
 export const getStaticProps = async (context) => {
@@ -50,7 +52,7 @@ export async function getStaticPaths() {
     fallback: true
   }
 
-  console.log(ret.paths)
+  // console.log(ret.paths)
   return ret
 }
 

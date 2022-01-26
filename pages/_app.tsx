@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 // global styles shared across the entire site
 import 'styles/global.css'
 
